@@ -1,0 +1,47 @@
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    font-family: 'Fredoka';
+    margin: 0%;
+    text-align: center;
+    text-shadow: 0 0 10px gray;
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.navigation a {
+    float: right;
+    color: #1E1E1E;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    cursor: default;
+    user-select: none;
+    text-shadow: 0 0 20px gray;
+    outline: none;
+}
+
+ul {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: fit-content;
+}
+
+.contact {
+    color: lightblue;
+}
+
+.disclamer {
+    color: gray;
+    font-size: 8.5px;
+    font-style: italic;
+}
