@@ -11,7 +11,7 @@ body {
 
 .navigation {
     padding: 7px;
-    background-image: linear-gradient(to right, gray, lightgray);
+    background-image: linear-gradient(to right, rgb(92, 92, 92), rgb(230, 230, 230));
     overflow: hidden;
     align-content: center;
 }
@@ -40,5 +40,5 @@ h1 {
 }
 
 h1, h2, h3, p {
-    padding: 5px;
+    padding: 5px 15px;
 }
