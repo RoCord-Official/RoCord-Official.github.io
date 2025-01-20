@@ -9,12 +9,12 @@ body {
 }
 
 .navigation {
-    background-color: gray;
+    background-image: -moz-linear-gradient(to bottom right, gray, lightgray);
     overflow: hidden;
+    align-content: center;
 }
 
 .navigation a {
-    float: right;
     color: #1E1E1E;
     text-align: center;
     padding: 7px 8px;
@@ -27,13 +27,6 @@ h1 {
     user-select: none;
     text-shadow: 0 0 20px gray;
     outline: none;
-}
-
-ul {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width: fit-content;
 }
 
 .contact {
